@@ -388,9 +388,13 @@
     footer { flex-direction: column; align-items: flex-start; margin: 0 -24px; padding: 32px 24px; }
   }
 </style>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-<!-- ━━ SHARED NAV ━━ -->
+<!-- SHARED NAV -->
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
 <style>
 #shared-nav{
   position:fixed;top:0;left:0;right:0;z-index:99999;
@@ -410,37 +414,37 @@
 .snav-tabs{display:flex;gap:4px;}
 .snav-tab{
   display:flex;align-items:center;gap:7px;
-  padding:6px 18px;border-radius:6px;border:none;
+  padding:6px 18px;border-radius:6px;
   font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
   cursor:pointer;font-family:'Instrument Sans',sans-serif;
   text-decoration:none;transition:all .15s ease;
 }
-.snav-tab.active{background:#00d4a0;color:#07080c;}
+.snav-tab.active{background:#00d4a0;color:#07080c;border:1px solid #00d4a0;}
 .snav-tab:not(.active){background:transparent;color:#6b7190;border:1px solid #1e2230;}
 .snav-tab:not(.active):hover{color:#e8eaf0;border-color:#252a3a;background:#0e1018;}
 .snav-tab svg{width:13px;height:13px;flex-shrink:0;}
 .snav-meta{font-size:11px;color:#6b7190;letter-spacing:.03em;}
 .snav-meta strong{color:#e8eaf0;font-weight:600;}
 </style>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
-
 <nav id="shared-nav">
   <div class="snav-brand">
     <div class="snav-pip"><span></span><span></span><span></span><span></span></div>
     <div class="snav-wordmark">AI <em>Delivery OS</em></div>
   </div>
   <div class="snav-tabs">
-    <a class="snav-tab active" href="ai-delivery-os-one-pager.html">
+    <a class="snav-tab active" href="https://cornfedin1980.github.io/AI-Delivery-OS/">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
       One Pager
     </a>
-    <a class="snav-tab " href="delivery-os.html">
+    <a class="snav-tab " href="https://cornfedin1980.github.io/AI-Delivery-OS/delivery-os.html">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
       Live Tool
     </a>
   </div>
   <div class="snav-meta"><strong>Cornell D. Shephard</strong>&nbsp;·&nbsp;MSc, PMP</div>
 </nav>
+<!-- END SHARED NAV -->
+
 
 <div class="page">
 
@@ -561,6 +565,8 @@
   </div>
   <a class="cta-btn" href="#">Schedule a Conversation →</a>
 </footer>
+
+
 
 </body>
 </html>
